@@ -1,0 +1,25 @@
+[{
+    "id": "cc",
+    "name": "Visa/Mastercard",
+    "fee": {
+      "percent": 2.8,
+      "cost": 0
+    }
+  },
+  {
+    "id": "permata",
+    "name": "Transfer BANK Permata",
+    "fee": {
+      "percent": 0,
+      "cost": 3000
+    }
+  },
+  {
+    "id": "artajasa",
+    "name": "Transfer Bank Lain",
+    "fee": {
+      "percent": 0,
+      "cost": 3000
+    }
+  }
+]

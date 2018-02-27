@@ -1,0 +1,21 @@
+{
+  "items": [{
+      "id": 1,
+      "name": "Casing Exclusive",
+      "images": ["casing1.jpg", "casing2.jpg", "casing3.jpg"],
+      "price": 50000
+    },
+    {
+      "id": 2,
+      "name": "Casing Monster",
+      "images": ["casing4.jpg"],
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Casing Custom",
+      "images": ["casing5.jpg", "casing6.jpg", "casing7.jpg", "casing8.jpg"],
+      "price": 25000
+    }
+  ]
+}
