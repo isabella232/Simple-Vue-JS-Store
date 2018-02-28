@@ -161,7 +161,7 @@ require("vue2-animate/dist/vue2-animate.min.css");
 require("jquery");
 require("bootstrap/dist/css/bootstrap.min.css");
 require("bootstrap/dist/js/bootstrap.min.js");
-require("font-awesome/css/font-awesome.min.css");
+// require("font-awesome/css/font-awesome.min.css");
 
 import WizzardPage from "@/components/WizzardPage";
 import MainLayout from "@/components/MainLayout";
