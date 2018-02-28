@@ -8,7 +8,6 @@
           <h1>Demo Toko</h1>
         </div>
         <hr/>
-
         <slot name="content"/>
       </div>
     </div>

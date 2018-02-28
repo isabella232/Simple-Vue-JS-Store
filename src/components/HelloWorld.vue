@@ -21,7 +21,7 @@
 
         <!-- showing the true content! -->
         <transition-group tag="div" class="row" name="fadeLeft">
-          <div v-for="item, idx in items" class="col" :key="'item' + item.id" v-show="!shoppingCartShown">
+          <div v-for="item, idx in items" class="col-sm" :key="'item' + item.id" v-show="!shoppingCartShown">
             <div class="card">
               <img :src="'static/images/' + item.images[0]" class="card-img-top">
               <div class="card-body">
@@ -126,14 +126,14 @@
                   <div class="col">
                     <h5>Silahkan Pilih Metode Pembayaran</h5>
                     <button :class="{
-                          'btn w-100 m-2':true, 
+                          'btn btn-block m-2 btn-bayar':true, 
                           'btn-success' : paymentMethod != method,
-                          'btn-primary': paymentMethod === method
+                          'btn-primary': paymentMethod === method                          
                         }" 
                         v-for="method in paymentMethods" :key="'payment-method'+method.name"
                         @click.prevent="paymentMethod = method"                    
                         >
-                      {{method.name}}
+                        <img :src="'static/' + method.logo"/><br/>{{method.name}}
                     </button>
                   </div>
                 </div>
@@ -305,7 +305,7 @@ export default {
     },
     gotoPayment: function() {
       if (!this.paymentMethod) {
-        alert("Pilih dulu metode pembayarn yang Anda inginkan");
+        alert("Pilih dulu metode pembayaran yang Anda inginkan");
       } else {
         // everybody needs a vcode!
         const vcode = md5(
@@ -419,5 +419,9 @@ export default {
 .image-on-cart-list {
   width: 3em;
   height: auto;
+}
+
+.btn-bayar img {
+  height: 1em;
 }
 </style>

@@ -16,7 +16,7 @@
                         @click.prevent="isFilled(idx)?setPage(idx):null"
                         :disabled='!isFilled(idx)'
                         >
-                          Langkah {{idx + 1}}. <i :class="'fa fa-' + icons[idx]"></i> {{steps[idx]}}
+                          {{idx + 1}}. <i :class="'fa fa-' + icons[idx]"></i> <span class="d-none d-md-block">{{steps[idx]}}</span>
                       </button>
                     </div>
                   </div>

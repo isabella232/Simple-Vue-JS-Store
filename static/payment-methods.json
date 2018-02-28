@@ -1,6 +1,7 @@
 [{
     "id": "cc",
     "name": "Visa/Mastercard",
+    "logo": "/logo/visa-master.jpg",
     "fee": {
       "percent": 2.8,
       "cost": 0
@@ -9,6 +10,7 @@
   {
     "id": "permata",
     "name": "Transfer BANK Permata",
+    "logo": "/logo/permata.png",
     "fee": {
       "percent": 0,
       "cost": 3000
@@ -17,6 +19,7 @@
   {
     "id": "artajasa",
     "name": "Transfer Bank Lain",
+    "logo": "/logo/bersama.png",
     "fee": {
       "percent": 0,
       "cost": 3000
